@@ -51,11 +51,11 @@ $(document).ready(function() {
 		if(status) {
 			hilightColor();
 			status = false;
-			$(this).html('start');
+			$(this).html('stop');
 		}else {
 			clearInterval(interval);
 			status = true;
-			$(this).html('stop');
+			$(this).html('start');
 		}
 	});
 });
