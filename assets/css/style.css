@@ -1,0 +1,9 @@
+body {
+	background-color: #000000;
+}
+
+#world_map {
+	width: 900px; 
+	height: 700px;
+	margin-left: 22%
+}
